@@ -1,0 +1,65 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main () {
+float myNum = 5.75;
+cout << myNum <<endl;
+double myNu = 19.99;
+cout << myNu <<endl;
+float f1 = 35e3;
+double d1 = 12E4;
+cout << f1 << "\n";
+cout << d1 << "\n";
+bool isCodingFun = true;
+bool isFishTasty = false;
+cout << isCodingFun << "\n";
+cout << isFishTasty << "\n";
+char myGrade = 'B';
+cout << myGrade <<endl;
+char a = 65, b = 66, c = 67;
+cout << a;
+cout << b;
+cout << c <<endl;
+string greeting = "Hello";
+cout << greeting <<endl;
+int x =100 + 50;
+cout << x <<endl;
+int sum1 = 100 + 50;
+int sum2 = sum1 + 250;
+int sum3 = sum2 + sum2;
+cout << sum1 << "\n";
+cout << sum2 << "\n";
+cout << sum3 << "\n";
+x += 30;
+cout << x << "\n";
+int  y = 3;
+cout << (x >y) << "\n";
+string firstName = "John ";
+string lastName = "Doe ";
+string fullName = firstName + " " + lastName;
+cout << fullName <<"\n";
+string fullNamed = firstName.append(lastName);
+cout << fullName <<endl;
+string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+cout << "The length of the txt string is: " << txt.length() <<endl;
+cout << "The length of the txt string is: " << txt.size() <<endl;
+cout << txt[0] <<endl;
+cout << txt[1] <<endl;
+txt[0] = 'J';
+cout << txt <<endl;
+string allName;
+cout << "Type your full name:";
+getline(cin, allName);
+cout << "Your name is: " <<allName <<endl;
+cout << max(5, 10) <<endl;
+cout << min(5, 10) <<endl;
+int r = 64;
+float t = 2.6;
+int o = 2;
+cout << sqrt(64) << "\n";
+cout << round(2.6) << "\n";
+cout << log(2) << "\n";
+cout << (x >y) << "\n";
+return 0;
+}
